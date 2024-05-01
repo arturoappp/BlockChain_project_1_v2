@@ -77,7 +77,7 @@ class Block {
             if (this.height > 0) {
                 resolve(data);
             } else {
-                reject(new Error("Genesis block does not have data"));
+                //reject(new Error("Genesis block does not have data"));
             }
         });
     }
